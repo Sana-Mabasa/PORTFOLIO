@@ -1,5 +1,9 @@
 h1 {
   text-align: left;
+
+  left: 5px;
+  top: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .heading {
   display: flex;
@@ -11,4 +15,7 @@ h1 {
 .link {
   padding: 20px;
   text-decoration: none;
+}
+.col-6 {
+  margin-top: 50px;
 }
