@@ -1,12 +1,14 @@
 h1 {
-  text-align: center;
+  text-align: left;
 }
 .heading {
   display: flex;
-  margin-top: 0 auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  justify-content: flex-end;
 }
 .link {
-  border: 1px solid plum;
   padding: 20px;
-  flex: 1px;
+  text-decoration: none;
 }
