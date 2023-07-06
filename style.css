@@ -1,3 +1,7 @@
+:root {
+  --font-family: Georgia, "Times New Roman", Times, serif;
+  --font-style: bold;
+}
 h1 {
   text-align: left;
 
@@ -11,6 +15,7 @@ h1 {
   right: 0;
   top: 0;
   justify-content: flex-end;
+  font-family: var(--font-family);
 }
 .link {
   padding: 20px;
@@ -18,4 +23,16 @@ h1 {
 }
 .col-6 {
   margin-top: 50px;
+  font-family: var(--font-family);
+}
+.name {
+  font-size: 50px;
+  font-style: var(--font-style);
+}
+.hi {
+  font-size: 35px;
+}
+h2,
+h6 {
+  text-align: center;
 }
